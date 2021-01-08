@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+body{
+    margin:0 auto;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+nav a{
+    color: orange;
+}
+.navbar-brand >img{
+    width: 60px;
+    height: 60px;
+}
+.carousel-item >img{
+    filter: brightness(50%);
+}
+h1 > span{
+    color: orange;
+}
+.row> *{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container-custom{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; /*중심축 정렬 방식*/
+    align-items: center; /*밴대축 정렬방식*/
+            /*align-items: stretch하면 안 바뀐다. 왜냐하면, item의 height를 벌써 정했다.*/
+            /*근데 다른때는 그냥 나눈다; width나 height을 바꾸면서*/
+    flex-wrap: wrap;
+}
+.container-custom>.card{
+    margin: 15px;
+}
+
+footer{
+    /*width is automatically there--> the whole page*/
+    height:100px ;
+    background-color: pink;
+}
+footer>p{
+    padding-top: 20px;
+}
