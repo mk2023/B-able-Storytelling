@@ -38,7 +38,7 @@ h1 > span{
 footer{
     /*width is automatically there--> the whole page*/
     height:100px ;
-    background-color: pink;
+    background-color: #8BA2B8;
 }
 footer>p{
     padding-top: 20px;
